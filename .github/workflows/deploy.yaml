@@ -45,7 +45,7 @@ jobs:
 
 
   deploy:
-    needs: tests
+    needs: test
     runs-on: self-hosted
     
     steps:
